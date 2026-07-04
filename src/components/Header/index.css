@@ -1,0 +1,64 @@
+.logo {
+  padding: 10px;
+  margin-left: 20px;
+  height: 75px;
+  width: 75px;
+}
+
+.logo-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.wave {
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 5px;
+}
+.header-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 1px;
+}
+.list-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.route-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  font-size: 35px;
+  font-weight: bolder;
+  padding: 5px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.list-item {
+  color: black;
+  font-size: 35px;
+  font-weight: bolder;
+  padding: 5px;
+  text-decoration: none;
+  margin: 5px;
+}
+li:hover {
+  color: rgb(42, 40, 40);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  text-decoration: underline;
+}
+.activeTab {
+  background-image: linear-gradient(
+    to right,
+    rgb(230, 132, 221),
+    rgb(101, 187, 208)
+  );
+  border-radius: 10px;
+}

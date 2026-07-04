@@ -1,0 +1,17 @@
+.outer-cont {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  padding: 10px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.para {
+  font-size: 70px;
+  font-weight: 800;
+  color: black;
+}

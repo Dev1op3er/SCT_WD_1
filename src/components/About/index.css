@@ -1,0 +1,14 @@
+.outer-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.img {
+  margin-bottom: 20px;
+}
+.para {
+  font-size: 70px;
+  font-weight: 800;
+  color: black;
+}
